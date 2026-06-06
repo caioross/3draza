@@ -1,0 +1,35 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ── Ambiente virtual local ──────────────────────────────
+env/
+venv/
+.venv/
+
+# ── Modelos e caches pesados (vários GB) ────────────────
+models/
+outputs/
+*.safetensors
+*.ckpt
+*.pth
+*.onnx
+*.glb
+*.obj
+
+# ── Código clonado de terceiros (re-clonado pelo install.bat) ──
+TripoSR/
+Hunyuan3D2/
+
+# ── Segredos / config ───────────────────────────────────
+.env
+.env.*
+
+# ── Capturas e temporários ──────────────────────────────
+Nova pasta/
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
